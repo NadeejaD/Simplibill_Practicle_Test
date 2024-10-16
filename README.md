@@ -28,12 +28,13 @@ clear cache
 
 run
 ```bash
- 8. php artisan serve
+ 8. npm run dev
+ 9. php artisan serve
 ```
 
 unit test
 ```bash
- 9. php artisan test --filter PostTest
+ 10. php artisan test --filter PostTest
 ```
 
 admin details
