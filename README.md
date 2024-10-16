@@ -34,7 +34,7 @@ run
 
 unit test
 ```bash
- 10. php artisan test --filter PostTest
+ 10. php artisan test --filter PostTest (When you run the unit-test database data will clear)
 ```
 
 admin details

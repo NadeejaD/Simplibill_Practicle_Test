@@ -10,7 +10,7 @@ use Tests\TestCase;
 
 class PostTest extends TestCase
 {
-    use DatabaseTransactions; // Roll back database after each test
+    use RefreshDatabase; // Roll back database after each test
 
     protected function setUp(): void
     {
